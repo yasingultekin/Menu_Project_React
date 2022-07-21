@@ -1,10 +1,10 @@
 import React from "react";
 import Menu from "../menu/Menu";
 
-const Menus = () => {
+const Menus = ({ menuItems }) => {
   return (
     <div>
-      <Menu />
+      <Menu menuItems={menuItems} />
     </div>
   );
 };
