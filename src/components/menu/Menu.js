@@ -9,6 +9,13 @@ const Menu = ({ menuItems }) => {
         return (
           <div className="menu-container">
             <img src={img} alt="" />
+            <div className="info">
+              <header>
+                <h4>{title}</h4>
+                <h3>${price}</h3>
+                <p>{desc}</p>
+              </header>
+            </div>
           </div>
         );
       })}
