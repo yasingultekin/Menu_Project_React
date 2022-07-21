@@ -1,7 +1,8 @@
 import React from "react";
+import "./Menu.css";
 
-const Menu = () => {
-  return <div>Menu</div>;
+const Menu = ({ menuItems }) => {
+  return <div className="main-container"></div>;
 };
 
 export default Menu;
